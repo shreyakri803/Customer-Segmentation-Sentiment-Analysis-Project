@@ -4,19 +4,13 @@ The goal is to understand customer opinions and evaluate product performance bas
 -----------------------------------------------------
 Key Objectives
 
-Clean & preprocess product review data
-
-Perform exploratory data analysis (EDA)
-
-Visualize sentiment patterns & top words
-
-Convert text into numerical features (TF-IDF)
-
-Handle class imbalance with SMOTE
-
-Train multiple ML models
-
-Tune hyperparameters (XGBoost)
+* Clean & preprocess product review data
+* Perform exploratory data analysis (EDA)
+* Visualize sentiment patterns & top words
+* Convert text into numerical features (TF-IDF)
+* Handle class imbalance with SMOTE
+* Train multiple ML models
+* Tune hyperparameters (XGBoost)
 ---------------------------------------------------------
 📂 Dataset Description
 | Column       | Description                           |
