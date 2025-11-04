@@ -37,40 +37,27 @@ Steps performed:
 -----------------------------------------------
 📊 Exploratory Data Analysis
 
-Visualizations performed:
-
-Sentiment distribution
-
-Product price distribution
-
-Ratings by sentiment
-
-Word clouds for each sentiment
-
-Most common words & bigrams
-
-Correlation map (price vs rating)
-
-Review length analysis
+1. Visualizations performed
+2. Sentiment distribution
+3. Product price distribution
+4. Ratings by sentiment
+5. Word clouds for each sentiment
+6. Most common words & bigrams
+7. Correlation map (price vs rating)
+8. Review length analysis
 
 Key Insights:
 
-~61% reviews are positive
-
-Positive reviews correlate with higher star ratings (avg ~4.6)
-
-Negative reviews use words like bad, worst, waste, not
-
-Popular bigrams: good product, nice product, waste money
+* ~61% reviews are positive
+* Positive reviews correlate with higher star ratings (avg ~4.6)
+* Negative reviews use words like bad, worst, waste, not
+* Popular bigrams: good product, nice product, waste money
 ---------------------------------------------------
 🧠 Machine Learning Models
-Features & Sampling
-
-Vectorizer: TF-IDF (5000 features)
-
-Imbalance handling: SMOTE
-
-Train/Test split: 80/20
+1. Features & Sampling
+2. Vectorizer: TF-IDF (5000 features)
+3. Imbalance handling: SMOTE
+* Train/Test split: 80/20
 
 Models Trained
 | Model                                | Accuracy   |
@@ -83,13 +70,10 @@ Models Trained
 ----------------------------------------------------
 Best Model
 
-Tuned XGBoost Classifier
-
-Macro F1 ~0.88
-
-Strong performance across all sentiment classes
-
-Identified key words influencing sentiment
+* Tuned XGBoost Classifier
+* Macro F1 ~0.88
+* Strong performance across all sentiment classes
+* Identified key words influencing sentiment
 
 Top Keywords Detected
 
@@ -98,11 +82,9 @@ Negative: worst, waste, horrible, useless, bad
 -----------------------------------------------------
 💾 Model Export
 
-Saved artifacts using joblib:
-
-sentiment_xgb_model.pkl
-
-tfidf_vectorizer.pkl
+* Saved artifacts using joblib:
+* sentiment_xgb_model.pkl
+* tfidf_vectorizer.pkl
 
 👀 Sample prediction included in notebook.
 -----------------------------------------------------------
@@ -116,44 +98,36 @@ tfidf_vectorizer.pkl
 | Deployment Prep | joblib                         |
 
 ├── data/
+
 ├── sentiment_project.ipynb
+
 ├── sentiment_xgb_model.pkl
+
 ├── tfidf_vectorizer.pkl
+
 ├── README.md
+
 └── requirements.txt
 
 -------------------------------------------------------------
 ✅ Achievements
 
-Built complete NLP sentiment pipeline
-
-Performed deep EDA + word analytics
-
-Achieved >87% accuracy
-
-Exported model & vectorizer
-
-Demonstrated ML experimentation & tuning
+* Built complete NLP sentiment pipeline
+* Performed deep EDA + word analytics
+* Achieved >87% accuracy
+* Exported model & vectorizer
+* Demonstrated ML experimentation & tuning
 
 🚀 Future Work
 
-Add real customer-level segmentation (RFM clustering)
-
-Build a Streamlit or Flask UI
-
-Deploy as API for live sentiment prediction
-
-Improve text preprocessing (negation handling, lemmatization)
+* Add real customer-level segmentation (RFM clustering)
+* Build a Streamlit or Flask UI
+* Deploy as API for live sentiment prediction
+* Improve text preprocessing (negation handling, lemmatization)
 
 Try transformer models (BERT / DistilBERT)
 
 🙌 Acknowledgements
 
-Kaggle / public e-commerce review dataset
-
-Scikit-learn, XGBoost, NLTK
-
-
-Evaluate model performance
-
-Export trained model for deployment
+* Kaggle / public e-commerce review dataset
+* Scikit-learn, XGBoost, NLTK
